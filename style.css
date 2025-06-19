@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background: black;
+  padding: 20px;
+  text-align: center;
+}
+.board{
+    display:flex;
+    justify-content: space-between;
+    padding:0 100px;
+    align-items: flex-start;
+}
+.columns{
+    color: white;
+    padding: 10px;
+    border: 1px solid #444;
+    background-color: blue;
+}
+
+.taskdiv{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background:lightblue;
+    margin: 10px 0;
+    border-radius: 4px;
+    color : black;
+}
+.box{
+    padding: 8px;
+    border-radius: 4px;
+}
+.task{
+    padding: 8px;
+    margin: 10px 10px;
+    border-radius: 4px;
+    background-color:white;
+}
+
+
+
